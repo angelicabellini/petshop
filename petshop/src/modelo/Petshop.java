@@ -15,6 +15,7 @@ public class Petshop {
     private int numero;
     private String endereco;
     private String nome;
+    private int codigo;
 
     public int getAvalicao() {
         return avalicao;
@@ -52,5 +53,15 @@ public class Petshop {
     public String toString() {
         return "Petshop{" + "nome=" + nome + '}';
     }
+
+    public int getCodigo() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public void setCodigo(int parseInt) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+   
     
 }
